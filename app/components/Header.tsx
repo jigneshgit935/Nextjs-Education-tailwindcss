@@ -23,7 +23,7 @@ export default function Header() {
       <p className="text-yellow-50 ml-4 font-semibold text-2xl  mr-auto">
         Eduhub
       </p>
-      <ul className="flex gap-6 list-none text-gray-200 font-semibold">
+      <ul className="flex md:gap-6 xs:gap-2 list-none text-gray-200 font-semibold">
         {links.map((link) => (
           <li key={link}>
             <Link
